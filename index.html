@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Djanélia Gonçalves | QA Engineer</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #cbd5e1;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .project-card h3 {
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-card p {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .skills, .tools, .funfacts, .softskills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .tag {
+      background: #1e293b;
+      color: #38bdf8;
+      padding: 0.6rem 1rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+    }
+
+    .cert-card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/dja.jpg" alt="Foto de Perfil">
+    <h1>Djanélia Gonçalves</h1>
+    <p>Analista de QA | Testes Manuais e Automatizados | Robot Framework | Selenium | Cypress | API & Frontend Testing</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Sou <strong>Djanélia Gonçalves</strong>, profissional de <strong>Quality Assurance</strong> comprometida em garantir a qualidade e a confiabilidade de aplicações web e APIs. 
+      Tenho experiência na automação de testes com <strong>Robot Framework</strong> ,<strong>Selenium</strong> e <strong>Cypress</strong> atuando em testes funcionais e de integração. 
+      Busco constantemente aprimorar as minhas competências em automação, metodologias ágeis e boas práticas de entrega contínua. 
+      Acredito que a qualidade é um valor que deve estar presente em todas as etapas do ciclo de desenvolvimento de software.
+    </p>
+  </section>
+
+  <section id="certificacoes">
+    <h2>Certificações</h2>
+
+    <div class="cert-card">
+      <h3>QA Start Requisitado | QualiCraft</h3>
+      <p><em>07/2025 – 10/2025</em></p>
+      <p>Durante o curso, desenvolvi experiência sólida em testes manuais e automatizados, incluindo:</p>
+      <ul>
+        <li>Fundamentos e técnicas de testes de software</li>
+        <li>Automação de testes de API e front-end com Robot Framework e Selenium</li>
+        <li>Testes de API com Insomnia e validação de endpoints REST</li>
+        <li>Criação de casos de teste e estratégias de regressão, integração e aceitação</li>
+        <li>Conhecimento em testes não funcionais: desempenho, segurança, usabilidade e compatibilidade</li>
+      </ul>
+      <p><strong>Ferramentas:</strong> Robot Framework, Selenium, Insomnia</p>
+      <p><strong>Habilidades:</strong> Testes de Software, Automação, API Testing, Estratégias de Testes</p>
+    </div>
+
+    <div class="cert-card">
+      <h3>Introdução a Python | Code Academy</h3>
+      <p><em>09/2023 – 09/2023 | Luanda, Angola</em></p>
+    </div>
+
+    <div class="cert-card">
+      <h3>Desenvolvimento Web | Unitel e Buka</h3>
+      <p><em>03/2022 – 04/2022 | Luanda, Angola</em></p>
+      <p>Formação com foco em HTML, CSS3, JavaScript, Bootstrap 5, Git/GitHub e WordPress.</p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos de Testes Automatizados</h2>
+    <div class="projects">
+
+      <div class="project-card">
+        <img src="img/Api_auto.png" alt="Projeto API">
+        <h3>Testes de API com Robot Framework</h3>
+        <p>Automação de testes REST com Robot Framework, validando endpoints, status codes e respostas JSON.</p>
+        <a href="https://github.com/DjaneliaSoares/robotframework-api-tests-" target="_blank">Ver Repositório</a>
+      </div>
+
+      <div class="project-card">
+        <img src="img/Api.webp" alt="Projeto UI">
+        <h3>Testes de Frontend com Robot Framework + Selenium</h3>
+        <p>Automação de interface de utilizador, validando fluxos críticos, formulários e componentes visuais com Selenium.</p>
+        <a href="https://github.com/DjaneliaSoares/robotframework-ui-tests" target="_blank">Ver Repositório</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://i.imgur.com/z8A9xUL.png" alt="Electromo">
+        <h3>Electromo</h3>
+        <p>E-commerce desenvolvido em HTML, CSS e JavaScript, com testes funcionais automatizados em Robot Framework.</p>
+        <a href="https://github.com/DjaneliaSoares/Electromo" target="_blank">Ver Projeto</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills">
+      <span class="tag">Testes Automatizados</span>
+      <span class="tag">QA Manual</span>
+      <span class="tag">Testes de API</span>
+      <span class="tag">Testes de Regressão</span>
+      <span class="tag">Testes de Integração</span>
+      <span class="tag">Testes de Aceitação</span>
+      <span class="tag">Testes de Sistema</span>
+      <span class="tag">Testes Exploratórios</span>
+    </div>
+  </section>
+
+  <section id="softskills">
+    <h2>Soft Skills</h2>
+    <div class="softskills">
+      <span class="tag">Comunicação Clara</span>
+      <span class="tag">Trabalho em Equipa</span>
+      <span class="tag">Resolução de Problemas</span>
+      <span class="tag">Atenção aos Detalhes</span>
+      <span class="tag">Gestão de Tempo</span>
+      <span class="tag">Adaptabilidade</span>
+      <span class="tag">Pensamento Crítico</span>
+    </div>
+  </section>
+
+  <section id="ferramentas">
+    <h2>Ferramentas</h2>
+    <div class="tools">
+      <span class="tag">Robot Framework</span>
+      <span class="tag">Selenium</span>
+      <span class="tag">Python</span>
+      <span class="tag">Cypress</span>
+      <span class="tag">Playwright</span>
+      <span class="tag">Postman</span>
+      <span class="tag">Swagger</span>
+      <span class="tag">Insomnia</span>
+      <span class="tag">VS Code</span>
+      <span class="tag">JMeter</span>
+      <span class="tag">Git & GitHub</span>
+      <span class="tag">Jira</span>
+      <span class="tag">TestRail</span>
+      <span class="tag">Trello</span>
+      <span class="tag">Notion</span>
+      <span class="tag">GitHub Actions (Em Aprendizagem)</span>
+    </div>
+  </section>
+
+  <section id="curiosidades">
+    <h2>Curiosidades</h2>
+    <div class="funfacts">
+      <p>Gosto de investigar bugs e entender o “porquê” por trás dos erros.</p>
+      <p>Gosto de aprender coisas novas e aplicar os meus conhecimentos para melhorar a qualidade e a experiência do utilizador em sistemas digitais.</p>
+      <p>Acredito que qualidade é uma responsabilidade de toda a equipa.</p>
+      
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="mailto:dosanjosdjane1@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/djanélia-gonçalves-ab86b12b7" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/DjaneliaSoares" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="tel:+244957095630" title="Telefone"><i class="fas fa-phone"></i></a>
+    </div>
+    <p>© 2025 Djanélia Gonçalves. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
